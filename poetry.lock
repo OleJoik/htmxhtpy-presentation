@@ -158,6 +158,24 @@ files = [
 ]
 
 [[package]]
+name = "htpy"
+version = "24.9.1"
+description = "htpy - HTML in Python"
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "htpy-24.9.1-py3-none-any.whl", hash = "sha256:e19975b193943122e2020a7c0cb93cf7ed5fa44bd4a9fbf4e71f1bd09ec5ae8d"},
+    {file = "htpy-24.9.1.tar.gz", hash = "sha256:ddafc31354e0226f86ccc4bd312b1592895441e43d2c07b6b9e3168267294b3b"},
+]
+
+[package.dependencies]
+markupsafe = ">=2.0.0"
+
+[package.extras]
+dev = ["black", "django", "django-stubs", "flit", "httpx", "jinja2", "mypy", "pre-commit", "pyright", "pytest", "ruff", "starlette"]
+docs = ["mkdocs-material (==9.5.12)"]
+
+[[package]]
 name = "httpcore"
 version = "1.0.6"
 description = "A minimal low-level HTTP client."
@@ -956,4 +974,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.12.5"
-content-hash = "17d1e44dfd2768487b82ee53c4ee3ab77fdee0ae28d687c1107dd8ceb61daa82"
+content-hash = "13a24a2435d876b66a08be07c7865e400b98b32669f453a6fab65a0b240e915f"
