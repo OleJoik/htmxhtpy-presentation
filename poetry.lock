@@ -401,10 +401,7 @@ files = [
 [package.dependencies]
 annotated-types = ">=0.6.0"
 pydantic-core = "2.23.4"
-typing-extensions = [
-    {version = ">=4.12.2", markers = "python_version >= \"3.13\""},
-    {version = ">=4.6.1", markers = "python_version < \"3.13\""},
-]
+typing-extensions = {version = ">=4.6.1", markers = "python_version < \"3.13\""}
 
 [package.extras]
 email = ["email-validator (>=2.0.0)"]
@@ -958,5 +955,5 @@ files = [
 
 [metadata]
 lock-version = "2.0"
-python-versions = "^3.12"
-content-hash = "61e54d8f9a1bb6cd909f1dda61669e8b7e1426e2c6be98ceb7e1f6edff484d7b"
+python-versions = "3.12.5"
+content-hash = "17d1e44dfd2768487b82ee53c4ee3ab77fdee0ae28d687c1107dd8ceb61daa82"
